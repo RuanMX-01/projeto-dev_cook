@@ -1,13 +1,13 @@
 # Product Requrimente Document(PRD) - DevCook
 
-# 1. Descrição:
+## 1. Descrição:
 
 O DevCook é uma aplicação web voltada para simplificar a rotina culinária de desenvolvedores, estudantes e entusiastas da cozinha. A proposta central é resolver o dilema comum de "não saber o que cozinhar com o que tem na geladeira", oferecendo uma busca inteligente baseada em ingredientes disponíveis, além de ferramentas para calcular parâmetros nutricionais e gerenciar receitas personalizadas.
 
-# 2. Atores do Sistema:
+## 2. Atores do Sistema:
 Pessoas com rotina corrida que buscam refeições práticas, usuários interessados em acompanhar a ingestão calórica/nutricional de suas refeições e entusiastas da culinária que desejam criar e organizar seu próprio livro de receitas digital.
 
-# 3. História de usuário e escopo:
+## 3. História de usuário e escopo:
 
 ### Módulo 1: Autenticação e Perfis
 **US01 - Criação de Conta:** 
@@ -18,7 +18,7 @@ Como um Visitante, quero preencher um formulário com meus dados (Nome, Email, S
  -Critérios de Aceitação: O email deve estar cadastrado no sistema; em caso de credenciais incorretas, exibir mensagem clara de erro no lado cliente sem recarregar a página.
 
 ### Módulo 2: Busca e Catálogo de Receitas
-** US03 - Busca por Ingredientes:**
+**US03 - Busca por Ingredientes:**
 Como um Visitante, quero digitar os ingredientes que tenho em casa na barra de pesquisa para encontrar receitas compatíveis.
  -Critérios de Aceitação: A busca deve consumir a API pública do TheMealDB em tempo real; se nenhum resultado for encontrado ou ocorrer falha de conexão, uma mensagem visual amigável deve ser exibida.
 
