@@ -2,7 +2,7 @@
 
 ## Descrição Detalhada das Entidades e Atributos
 
-### 1. Entidade: USUARIO (Users)**
+### 1. Entidade: USUARIO (Users)
 -Guarda as informações de cadastro e autenticação das pessoas que acessam o sistema (Atende US01, US02 e a consulta ao ViaCEP).
 
 - **id (Inteiro, Chave Primária): Identificador único do usuário.**
