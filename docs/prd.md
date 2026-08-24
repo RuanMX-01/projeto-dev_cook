@@ -21,7 +21,7 @@ Pessoas com rotina corrida que buscam refeições práticas, usuários interessa
 ### Módulo 2: Busca e Catálogo de Receitas
 - **US03 - Busca por Ingredientes:** Como um Visitante, quero digitar os ingredientes que tenho em casa na barra de pesquisa para encontrar receitas compatíveis.
   
-    -*Critérios de Aceitação: A busca deve consumir a API pública do TheMealDB em tempo real; se nenhum resultado for encontrado ou ocorrer falha de conexão, uma mensagem visual amigável deve ser exibida.
+    -*Critérios de Aceitação:* A busca deve consumir a API pública do TheMealDB em tempo real; se nenhum resultado for encontrado ou ocorrer falha de conexão, uma mensagem visual amigável deve ser exibida.
 
 - **US04 - Filtragem por Categoria e Restrições:** Como um Usuário, quero selecionar categorias (Massas, Sobremesas) e restrições (Vegano, Low-Carb) usando seletores e botões para refinar os resultados exibidos.
 
