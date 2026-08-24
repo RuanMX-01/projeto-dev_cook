@@ -7,7 +7,7 @@
 
 - **id (Inteiro, Chave Primária): Identificador único do usuário.**
 
-- ** nome (Texto): Nome completo.
+ - nome (Texto): Nome completo.
 
 - **email (Texto): E-mail para acesso/login.**
 
