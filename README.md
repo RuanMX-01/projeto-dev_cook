@@ -1,6 +1,7 @@
 # projeto-dev_cook
 Autor: Ruan Matheus Adamowski Linhares.
-->Este é um teste de projeto sobre livro de receitas e calculadora nutricional.
+
+->Este é um teste de projeto sobre livro de receitas e calculadora nutricional (por enquanto não estilizei nada).
 
 # Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
 
