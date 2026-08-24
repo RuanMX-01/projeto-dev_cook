@@ -1,5 +1,5 @@
 # projeto-dev_cook
-Autor: Ruan Matheus Adamowski Linhares.
+**Autor:** Ruan Matheus Adamowski Linhares.
 
 ->Este é um teste de projeto sobre livro de receitas e calculadora nutricional (por enquanto não estilizei nada).
 
