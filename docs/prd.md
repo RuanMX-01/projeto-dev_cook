@@ -19,7 +19,7 @@ Pessoas com rotina corrida que buscam refeições práticas, usuários interessa
     -*Critérios de Aceitação:* O email deve estar cadastrado no sistema; em caso de credenciais incorretas, exibir mensagem clara de erro no lado cliente sem recarregar a página.
 
 ### Módulo 2: Busca e Catálogo de Receitas
-- **US03 - Busca por Ingredientes:**Como um Visitante, quero digitar os ingredientes que tenho em casa na barra de pesquisa para encontrar receitas compatíveis.
+- **US03 - Busca por Ingredientes:** Como um Visitante, quero digitar os ingredientes que tenho em casa na barra de pesquisa para encontrar receitas compatíveis.
   
     -*Critérios de Aceitação: A busca deve consumir a API pública do TheMealDB em tempo real; se nenhum resultado for encontrado ou ocorrer falha de conexão, uma mensagem visual amigável deve ser exibida.
 
