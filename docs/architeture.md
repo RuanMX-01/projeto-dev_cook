@@ -22,7 +22,7 @@
 
 - **nome (Texto): Nome da categoria (ex.: Massas, Sobremesas, Saladas, Bebidas).**
 
-icone (Texto): Classe do ícone ou imagem da categoria.
+- ** icone (Texto): Classe do ícone ou imagem da categoria.**
 
 ### 3. Entidade: RECEITA (Recipes)
 -Guarda todas as receitas cadastradas pelos usuários no banco fake (db.json do JSON Server) (Atende US07 e US08).
