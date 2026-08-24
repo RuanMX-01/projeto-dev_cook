@@ -42,4 +42,4 @@ Pessoas com rotina corrida que buscam refeições práticas, usuários interessa
 
 - **US08 - Painel "Minhas Receitas":** Como um Usuário, quero visualizar uma tela com todas as receitas que cadastrei na plataforma.
 
- - *Critérios de Aceitação:* As receitas devem ser recuperadas via requisição assíncrona GET ao JSON Server e renderizadas dinamicamente em uma grade de cards responsiva.
+   *Critérios de Aceitação:* As receitas devem ser recuperadas via requisição assíncrona GET ao JSON Server e renderizadas dinamicamente em uma grade de cards responsiva.
