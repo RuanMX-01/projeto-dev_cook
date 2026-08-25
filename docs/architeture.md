@@ -55,3 +55,5 @@
 - **receita_id (Inteiro, Chave Estrangeira): ID da receita favoritada.**
 
 - **data_adicao (Texto): Data em que a receita foi gravada nos favoritos.**
+
+<img width="2190" height="6058" alt="image" src="https://github.com/user-attachments/assets/73134204-1f58-4c12-b20b-95bf5a99f648" />
