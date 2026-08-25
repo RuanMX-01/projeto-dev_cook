@@ -53,6 +53,7 @@ erDiagram
         int receita_id FK
         string data_adicao
     }
+```
 
 ### 1. Entidade: USUARIO (Users)
 -Guarda as informações de cadastro e autenticação das pessoas que acessam o sistema.
