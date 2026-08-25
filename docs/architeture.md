@@ -1,59 +1,51 @@
-# Arquitetura do Projeto(Architeture.md)
+# 🗄️ Modelo de Dados (Diagrama ER)
 
-## Descrição Detalhada das Entidades e Atributos
+Diagrama de Entidade-Relacionamento do sistema, detalhando a estrutura das tabelas e seus relacionamentos.
 
-### 1. Entidade: USUARIO (Users)
--Guarda as informações de cadastro e autenticação das pessoas que acessam o sistema.
+---
 
-- **id (Inteiro, Chave Primária): Identificador único do usuário.**
+## 📐 Diagrama de Relacionamento (Mermaid)
 
- - **nome (Texto): Nome completo.**
+```mermaid
+erDiagram
+    USUARIO ||--o{ RECEITA : "cadastra"
+    USUARIO ||--o{ FAVORITO : "marca"
+    CATEGORIA ||--o{ RECEITA : "classifica"
+    RECEITA ||--o{ FAVORITO : "é favoritada em"
 
-- **email (Texto): E-mail para acesso/login.**
+    USUARIO {
+        int id PK
+        string nome
+        string email
+        string senha
+        string cep
+        string logradouro
+        string bairro
+        string cidade
+        string uf
+    }
 
-- **senha (Texto): Senha criptografada/validada com (REGEX).**
+    CATEGORIA {
+        int id PK
+        string nome
+        string icone
+    }
 
-- **cep, logradouro, bairro, cidade, uf (Texto): Dados do endereço preenchidos via API do ViaCEP.**
+    RECEITA {
+        int id PK
+        int usuario_id FK
+        int categoria_id FK
+        string titulo
+        string modo_preparo
+        string tempo_preparo
+        string url_imagem
+        string tags_dieteticas
+        string nivel_dificuldade
+    }
 
-### 2. Entidade: CATEGORIA (Categories)
--Guarda as categorias disponíveis para classificação dos pratos.
-
-- **id (Inteiro, Chave Primária): Identificador único da categoria.**
-
-- **nome (Texto): Nome da categoria (ex.: Massas, Sobremesas, Saladas, Bebidas).**
-
-- **icone (Texto): Classe do ícone ou imagem da categoria.**
-
-### 3. Entidade: RECEITA (Recipes)
--Guarda todas as receitas cadastradas pelos usuários no banco fake (db.json do JSON Server).
-
-- **id (Inteiro, Chave Primária): Identificador único da receita.**
-
-- **usuario_id (Inteiro, Chave Estrangeira): ID do usuário autor da receita.**
-
-- **categoria_id (Inteiro, Chave Estrangeira): ID da categoria à qual pertence.**
-
-- **titulo (Texto): Nome do prato.**
-
-- **modo_preparo (Texto): Instruções passo a passo.**
-
-- **tempo_preparo (Texto): Duração formatada por máscara (ex.: 00:45).**
-
-- **url_imagem (Texto): Caminho da imagem (otimizada em WebP).**
-
-- **tags_dieteticas (Texto): Seleção de opções (ex.: Vegano, Sem Glúten, Low-Carb).**
-
-- **nivel_dificuldade (Texto): Opção selecionada em botão de rádio (Fácil, Médio, Difícil).**
-
-### 4. Entidade: FAVORITO (Favorites)
--Associa os usuários às receitas que eles marcaram com estrela (persistido no localStorage do navegador ou via JSON Server).
-
-- **id (Inteiro, Chave Primária): Identificador do registro.**
-
-- **usuario_id (Inteiro, Chave Estrangeira): ID do usuário que favoritou.**
-
-- **receita_id (Inteiro, Chave Estrangeira): ID da receita favoritada.**
-
-- **data_adicao (Texto): Data em que a receita foi gravada nos favoritos.**
-
-<img width="2190" height="6058" alt="image" src="https://github.com/user-attachments/assets/73134204-1f58-4c12-b20b-95bf5a99f648" />
+    FAVORITO {
+        int id PK
+        int usuario_id FK
+        int receita_id FK
+        string data_adicao
+    }
