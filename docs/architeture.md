@@ -1,3 +1,4 @@
+[dev-cook-spec_md.pdf](https://github.com/user-attachments/files/31441126/dev-cook-spec_md.pdf)
 # Arquitetura do Projeto(Architeture.md)
 
 ## Descrição Detalhada das Entidades e Atributos
