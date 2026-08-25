@@ -3,7 +3,7 @@
 ## Descrição Detalhada das Entidades e Atributos
 
 ### 1. Entidade: USUARIO (Users)
--Guarda as informações de cadastro e autenticação das pessoas que acessam o sistema (Atende US01, US02 e a consulta ao ViaCEP).
+-Guarda as informações de cadastro e autenticação das pessoas que acessam o sistema.
 
 - **id (Inteiro, Chave Primária): Identificador único do usuário.**
 
@@ -16,7 +16,7 @@
 - **cep, logradouro, bairro, cidade, uf (Texto): Dados do endereço preenchidos via API do ViaCEP.**
 
 ### 2. Entidade: CATEGORIA (Categories)
--Guarda as categorias disponíveis para classificação dos pratos (Atende US04).
+-Guarda as categorias disponíveis para classificação dos pratos.
 
 - **id (Inteiro, Chave Primária): Identificador único da categoria.**
 
@@ -25,7 +25,7 @@
 - **icone (Texto): Classe do ícone ou imagem da categoria.**
 
 ### 3. Entidade: RECEITA (Recipes)
--Guarda todas as receitas cadastradas pelos usuários no banco fake (db.json do JSON Server) (Atende US07 e US08).
+-Guarda todas as receitas cadastradas pelos usuários no banco fake (db.json do JSON Server).
 
 - **id (Inteiro, Chave Primária): Identificador único da receita.**
 
@@ -46,7 +46,7 @@
 - **nivel_dificuldade (Texto): Opção selecionada em botão de rádio (Fácil, Médio, Difícil).**
 
 ### 4. Entidade: FAVORITO (Favorites)
--Associa os usuários às receitas que eles marcaram com estrela (Atende US06 — persistido no localStorage do navegador ou via JSON Server).
+-Associa os usuários às receitas que eles marcaram com estrela (persistido no localStorage do navegador ou via JSON Server).
 
 - **id (Inteiro, Chave Primária): Identificador do registro.**
 
