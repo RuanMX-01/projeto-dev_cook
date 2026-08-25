@@ -1,16 +1,10 @@
-# 🗄️ Modelo de Dados (Diagrama ER)
-
-Diagrama de Entidade-Relacionamento do sistema, detalhando a estrutura das tabelas e seus relacionamentos.
-
----
-
-## 📐 Diagrama de Relacionamento (Mermaid)
+# Modelo de Dados (Diagrama ER)
 
 ```mermaid
 erDiagram
     USUARIO ||--o{ RECEITA : "cadastra"
-    USUARIO ||--o{ FAVORITO : "marca"
-    CATEGORIA ||--o{ RECEITA : "classifica"
+    USUARIO ||--o{ FAVORITO : "favorita"
+    CATEGORIA ||--o{ RECEITA : "possui"
     RECEITA ||--o{ FAVORITO : "é favoritada em"
 
     USUARIO {
