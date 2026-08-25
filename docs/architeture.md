@@ -56,13 +56,19 @@
 
 - **data_adicao (Texto): Data em que a receita foi gravada nos favoritos.**
 
-# Modelo de Dados (Diagrama ER)
+# 🗄️ Modelo de Dados (Diagrama ER)
+
+Diagrama de Entidade-Relacionamento do sistema, detalhando a estrutura das tabelas e seus relacionamentos.
+
+---
+
+## 📐 Diagrama de Relacionamento (Mermaid)
 
 ```mermaid
 erDiagram
     USUARIO ||--o{ RECEITA : "cadastra"
-    USUARIO ||--o{ FAVORITO : "favorita"
-    CATEGORIA ||--o{ RECEITA : "possui"
+    USUARIO ||--o{ FAVORITO : "marca"
+    CATEGORIA ||--o{ RECEITA : "classifica"
     RECEITA ||--o{ FAVORITO : "é favoritada em"
 
     USUARIO {
