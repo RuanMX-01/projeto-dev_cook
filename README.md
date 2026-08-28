@@ -10,8 +10,8 @@ Este projeto tem como objetivo implementar uma aplicação web responsiva para a
 
 Para entender as regras de negócio, o escopo e a arquitetura técnica da aplicação, consulte os documentos abaixo:
 
-* [Product Requirements Document (PRD)](https://www.google.com/search?q=./docs/prd.md) — Visão geral, personas, requisitos e histórias de usuário.
-* [Software Design Document (Architecture)](https://www.google.com/search?q=./docs/architecture.md) — Diagrama de banco de dados (DER em Mermaid), fluxo de dados e mapeamento das APIs.
+* [Product Requirements Document (PRD)](./docs/prd.md) — Visão geral, personas, requisitos e histórias de usuário.
+* [Software Design Document (Architecture)](./docs/architecture.md) — Diagrama de banco de dados (DER em Mermaid), fluxo de dados e mapeamento das APIs.
 
 ---
 
