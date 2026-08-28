@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo implementar uma aplicação web responsiva para a busca de receitas inteligentes por ingredientes e cálculo de parâmetros nutricionais. O sistema permite o cadastro de receitas autorais, filtragem por categorias e restrições alimentares, cálculo visual de calorias e busca automática do endereço de origem do usuário via CEP. O frontend consome uma API local (JSON Server) para a persistência das receitas cadastradas e APIs públicas para busca de receitas reais em tempo real, consulta nutricional e autopreenchimento de endereço.
 
-*Autor:* Ruan Matheus Adamowski Linhares
+**Autor:** Ruan Matheus Adamowski Linhares
 
 ---
 
@@ -18,21 +18,6 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 ## 🎨 Design
 
 **A definir**
-
----
-
-## 🌐 Site em Produção - GitHub Pages
-
-* [Link do Projeto publicado no GitHub Pages](https://www.google.com/search?q=%23)
-
----
-
-## 🛠️ Como Executar o Projeto Localmente
-
-### Pré-requisitos
-
-* [Node.js](https://nodejs.org/) instalado na máquina.
-* Extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code.
 
 ---
 
