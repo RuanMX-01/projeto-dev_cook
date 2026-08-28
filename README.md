@@ -1,60 +1,80 @@
-# projeto-dev_cook
-**Autor:** Ruan Matheus Adamowski Linhares.
+# 🍳 DevCook — Catálogo de Receitas e Calculadora Nutricional
 
-->Este é um teste de projeto sobre livro de receitas e calculadora nutricional (por enquanto não estilizei nada).
+Este projeto tem como objetivo implementar uma aplicação web responsiva para a busca de receitas inteligentes por ingredientes e cálculo de parâmetros nutricionais. O sistema permite o cadastro de receitas autorais, filtragem por categorias e restrições alimentares, cálculo visual de calorias e busca automática do endereço de origem do usuário via CEP. O frontend consome uma API local (JSON Server) para a persistência das receitas cadastradas e APIs públicas para busca de receitas reais em tempo real, consulta nutricional e autopreenchimento de endereço.
 
-# Checklist | Indicadores de Desempenho (ID) dos Resultados de Aprendizagem (RA)
+*Autor:* Ruan Matheus Adamowski Linhares
 
-## RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos.
+---
 
-ID 01 - Prototipa interfaces adaptáveis para no mínimo os tamanhos de tela mobile e desktop, usando ferramentas de design tradicionais (Figma, Quant UX ou Sketch) ou IA (Stitch).
+## 📚 Documentação do Projeto
 
-ID 02 - Implementa layout responsivo com Framework CSS (Bootstrap, Materialize) usando Flexbox ou Grid do próprio framework.
+Para entender as regras de negócio, o escopo e a arquitetura técnica da aplicação, consulte os documentos abaixo:
 
-ID 03 - Implementa layout responsivo com CSS puro, usando Flexbox ou Grid Layout.
+* [Product Requirements Document (PRD)](https://www.google.com/search?q=./docs/prd.md) — Visão geral, personas, requisitos e histórias de usuário.
+* [Software Design Document (Architecture)](https://www.google.com/search?q=./docs/architecture.md) — Diagrama de banco de dados (DER em Mermaid), fluxo de dados e mapeamento das APIs.
 
-ID 04 - Utiliza componentes prontos de um Framework CSS (ex.: card, button) e componentes JavaScript do framework (ex.: modal, carousel).
+---
 
-ID 05 - Cria layout fluido usando unidades relativas (vw, vh, %, em, rem) no lugar de unidades fixas (px).
+## 🎨 Design
 
-ID 06 - Aplica um Design System consistente (cores, tipografia, padrões de componentes) em toda a aplicação.
+**A definir**
 
-ID 07 - Utiliza Sass (SCSS) com ou sem framework, aplicando variáveis, mixins e funções para modularizar o código.
+---
 
-ID 08 - Aplica tipografia responsiva (media queries mobile first) ou tipografia fluida (função clamp() + unidades relativas).
+## 🌐 Site em Produção - GitHub Pages
 
-ID 09 – Aplica técnicas de responsividade de imagens usando CSS (object-fit, containers com unidades relativas).
+* [Link do Projeto publicado no GitHub Pages](https://www.google.com/search?q=%23)
 
-ID 10 – Otimiza imagens usando formatos modernos (WebP) e carregamento adaptativo (srcset, picture, ou parâmetros do Cloudinary).
-## RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente.
+---
 
-ID 11 - Implementa validação HTML nativa (campos obrigatórios, tipos, limites de caracteres) com mensagens de erro/sucesso no lado cliente.
+## 🛠️ Como Executar o Projeto Localmente
 
-ID 12 - Aplica expressões regulares (REGEX) para validações customizadas (e-mail, telefone, datas, etc.)
+### Pré-requisitos
 
-ID 13 - Utiliza elementos de seleção em formulários (checkbox, radio, select) para coleta de dados.
+* [Node.js](https://nodejs.org/) instalado na máquina.
+* Extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code.
 
-ID 14 - Implementa leitura e escrita no Web Storage (localStorage/sessionStorage) para persistir dados localmente.
-## RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web.
+---
 
-ID 15 - Configura ambiente com Node.js e NPM para gerenciamento de pacotes e dependências.
+## 📊 Checklist de Indicadores de Desempenho (IDs)
 
-ID 16 - Utiliza boas práticas de versionamento no Git/GitHub (branch main ou branches específicos, uso de .gitignore).
+> **Nota:** Marque com `[x]` apenas os itens que foram efetivamente implementados na aplicação e que você domina para explicação na defesa técnica.
 
-ID 17 - Mantém um README.md padronizado, conforme template da disciplina, com checklist preenchido.
+### RA1 - Utilizar Frameworks CSS para estilização de elementos HTML e criação de layouts responsivos
 
-ID 18 - Organiza arquivos do projeto de forma modular, seguindo padrão de exemplo fornecido.
+* [ ] **ID01:** Prototipa interfaces adaptáveis para no mínimo os tamanhos de tela mobile e desktop, usando ferramentas de IA (Stitch) e/ou design (Figma).
+* [ ] **ID02:** Implementa layout responsivo com Framework CSS (Bootstrap) usando Flexbox ou Grid do próprio framework.
+* [ ] **ID03:** Implementa layout responsivo com CSS puro, usando Flexbox ou Grid Layout.
+* [ ] **ID04:** Utiliza componentes prontos de um Framework CSS (ex.: card, button) e componentes JavaScript do framework (ex.: modal, carousel).
+* [ ] **ID05:** Cria layout fluido usando unidades relativas (`vw`, `vh`, `%`, `em`, `rem`) no lugar de unidades fixas (`px`).
+* [ ] **ID06:** Aplica um Design System consistente (cores, tipografia, padrões de componentes) em toda a aplicação.
+* [ ] **ID07:** Utiliza Sass (SCSS) com ou sem framework, aplicando variáveis, mixins e funções para modularizar o código.
+* [ ] **ID08:** Aplica tipografia responsiva (media queries mobile first) ou tipografia fluida (`clamp()` + unidades relativas).
+* [ ] **ID09:** Aplica técnicas de responsividade de imagens usando CSS (`object-fit`, containers com unidades relativas).
+* [ ] **ID10:** Otimiza imagens usando formatos modernos (WebP) e carregamento adaptativo (`srcset`, `picture`).
 
-ID 19 - Configura linters e formatadores (ESLint, Prettier) para manter qualidade e padronização do código.
-## RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimorar a interatividade de páginas web.
+### RA2 - Realizar tratamento de formulários e aplicar validações customizadas no lado cliente
 
-ID 20 - Utiliza jQuery para manipulação do DOM e interatividade (eventos, animações, manipulação de elementos)
+* [ ] **ID11:** Implementa validação HTML nativa (campos obrigatórios, tipos, limites de caracteres) com mensagens de erro/sucesso no lado cliente.
+* [ ] **ID12:** Aplica expressões regulares (REGEX) para validações customizadas (e-mail, tempo de preparo, CEP).
+* [ ] **ID13:** Utiliza elementos de seleção em formulários (`checkbox`, `radio`, `select`) para coleta de dados.
+* [ ] **ID14:** Implementa leitura e escrita no Web Storage (`localStorage`/`sessionStorage`) para persistir dados localmente no cliente (favoritos/preferências).
 
-ID 21 - Integra e configura um plugin jQuery relevante (ex.: jQuery Mask Plugin) ou outra biblioteca de funções. 
-## RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas, permitindo a obtenção e manipulação de dados dinamicamente.
+### RA3 - Aplicar ferramentas para otimização do processo de desenvolvimento web
 
-ID 22 - Realiza requisições assíncronas para uma API fake (ex.: JSON Server) para persistir dados de um formulário.
+* [ ] **ID15:** Configura ambiente com Node.js e NPM para gerenciamento de pacotes e dependências.
+* [ ] **ID16:** Utiliza boas práticas de versionamento no Git / GitHub (branch `main`, uso de `.gitignore`).
+* [ ] **ID17:** Mantém um `README.md` padronizado, conforme template da disciplina, com checklist preenchido.
+* [ ] **ID18:** Organiza arquivos do projeto de forma modular, seguindo padrão de exemplo fornecido (`/docs`, `/public`, `/src`).
+* [ ] **ID19:** Configura linters e formatadores (ESLint, Prettier) para manter qualidade e padronização do código.
 
-ID 23 - Realiza requisições assíncronas para uma API fake para exibir dados na página.
+### RA4 - Aplicar bibliotecas de funções e componentes em JavaScript para aprimorar a interatividade
 
-ID 24 - Realiza requisições assíncronas para APIs públicas reais (OpenWeather, ViaCEP etc.), exibindo os dados e tratando erros.
+* [ ] **ID20:** Utiliza jQuery para manipulação do DOM e interatividade (eventos, animações, filtros dinâmicos).
+* [ ] **ID21:** Integra e configura um plugin jQuery relevante (ex.: jQuery Mask Plugin) para aplicar máscaras nos campos de entrada.
+
+### RA5 - Efetuar requisições assíncronas para uma API fake e APIs públicas
+
+* [ ] **ID22:** Realiza requisições assíncronas para uma API fake (JSON Server) para persistir dados de um formulário (`POST`).
+* [ ] **ID23:** Realiza requisições assíncronas para uma API fake para exibir e remover dados na página (`GET`, `DELETE`).
+* [ ] **ID24:** Realiza requisições assíncronas para APIs públicas reais (ViaCEP, TheMealDB, Open Food Facts), exibindo os dados e tratando erros com `fetch` ou `$.ajax`.
