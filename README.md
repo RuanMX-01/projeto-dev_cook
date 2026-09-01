@@ -17,7 +17,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ## 🎨 Design
 
-* [Design System do Projeto](designsystem.md)
+* [Design System do Projeto](./docs/designsystem.md)
 
 ---
 
