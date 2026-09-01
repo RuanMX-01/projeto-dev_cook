@@ -17,9 +17,9 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ## 🎨 Design
 
-**A definir**
+* [Design System do Projeto](designsystem.md)
 
 ---
 
 ## 📊 Checklist de Indicadores de Desempenho
-* [Checklist (ID's)](./docs/checklist.md)
+* [Checklist (ID's) para o Projeto](./docs/checklist.md)
