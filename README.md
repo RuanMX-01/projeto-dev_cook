@@ -34,3 +34,7 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ### Explorar
 <img width="390" height="1445" alt="screen" src="https://github.com/user-attachments/assets/4843b266-f726-4f99-b6b6-244d8badf577" />
+
+### Cores
+<img width="333" height="185" alt="Cores" src="https://github.com/user-attachments/assets/38c38106-c8fc-44db-b272-75ee2898a71e" />
+
