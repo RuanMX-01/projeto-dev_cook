@@ -21,5 +21,5 @@ Para entender as regras de negócio, o escopo e a arquitetura técnica da aplica
 
 ---
 
-## 📊 Checklist de Indicadores de Desempenho (IDs)
-(./docs/checklist)
+## 📊 Checklist de Indicadores de Desempenho
+* [Checklist](./docs/checklist)
